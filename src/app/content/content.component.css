@@ -1,0 +1,114 @@
+.redText {
+    color: red; 
+    /* font-size: 25px; */
+}
+
+.nameFont {
+    font-family: 'Merriweather Sans', sans-serif;
+     
+    color:rgb(204, 204, 221);
+}
+
+.myQuote {
+    font-family: 'Merriweather Sans', sans-serif;
+    color:rgb(153, 156, 174);
+}
+
+/* .intro, .aboutMeContainer, .myProjects, .myContact {
+    border: 1px solid white; 
+} */
+
+.content {
+    color:rgb(153, 156, 174);
+    font-size: 18px;
+}
+
+.contentNumber {
+    color: red; 
+    font-size: 25px;
+}
+
+.contentHeader {
+    font-family: 'Merriweather Sans', sans-serif;
+    color:rgb(204, 204, 221);
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.aboutMeContainer, .myProjects, .myContact {
+    margin-top: 20%;
+    
+}
+
+.gitLink:hover {
+    background-color: rgb(184, 117, 117);
+}
+
+.gitLink {
+    color: red; 
+    padding-bottom: 5px; 
+    transition: background-color 0.5s;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.img-hover {
+    position: relative;
+  }
+
+  .img-hover::before, .personalImage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(184, 117, 117);
+    transition: background-color 0.3s ease;
+    opacity: .5;
+    border-radius: 10px;
+  }
+  
+  .img-hover:hover::before, .personalImage:hover::before {
+    background-color: transparent;
+  }
+
+  .line {
+    content: "";
+    line-height: 1px;
+    color:rgb(64, 66, 81); 
+    position: relative;
+    top: -10px; 
+    width: 25%;
+    height: 1px;
+    margin-left: 20px;
+    display: inline-block;
+  }
+
+  .exception {
+    color: red;
+  }
+
+.exceptionHeader {
+    font-family: 'Merriweather Sans', sans-serif;
+    color:rgb(204, 204, 221);
+    font-size: 25px;
+}
+
+.description {
+    background-color:#08121c;
+    width: auto;
+    border-radius: 5px;
+}
+
+.footer {
+    color:rgb(153, 156, 174);
+    font-style: oblique;
+}
+
+@media (max-width: 575px){
+   
+    
+}

@@ -1,0 +1,55 @@
+
+a {
+    color:rgb(153, 156, 174);
+    
+}
+.emblem {
+    color: red;
+    font-size: 2em;
+    transition: background-color 0.5s;
+}
+
+.emblem:hover{
+    color: rgb(153, 156, 174);
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+}
+a:hover {
+    color: red; 
+    font-weight: 1000;
+    
+}
+
+.test {
+    border: 1px solid red;
+    padding-right: 16px;
+    color: red; 
+    border-radius: 5px; 
+}
+.test:hover,.menu:hover {
+    background-color: rgb(184, 117, 117);
+   
+}
+
+.menu {
+    color: red; 
+    padding-bottom: 5px; 
+    transition: background-color 0.5s;
+}
+
+.navNumber {
+    color: red; 
+}
+
+.rounded-img {
+    @apply rounded-lg; 
+    
+}
+
+
+@media (max-width: 575px){
+    .navsdistance {
+        margin-bottom: -60px;
+    }
+}

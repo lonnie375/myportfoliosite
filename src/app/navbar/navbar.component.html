@@ -1,0 +1,36 @@
+<nav class="fixed-top flex flex-wrap items-center justify-between px-4 py-8 mb-3 navsdistance">
+    <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+      <div class="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
+        <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white" href="#main">
+          <span class="emblem">LJ</span>
+        </a>
+        <button class="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none menu" type="button" (click)="toggleNavbar()">
+          <i class="fas fa-bars"></i> Menu
+        </button>
+      </div>
+      <div [ngClass]="{'hidden': !showMenu, 'flex': showMenu}" class="lg:flex lg:flex-grow items-center">
+        <ul class="flex flex-col lg:flex-row list-none ml-auto">
+          <li class="nav-item">
+            <a class="px-3 py-2 flex items-center text-xl font-bold leading-snug" href="#aboutMe" >
+                <span class="navNumber">1.</span><span class="ml-2">About</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="px-3 py-2 flex items-center text-xl font-bold leading-snug " href="#experience">
+              <span class="navNumber">2.</span><span class="ml-2">Experience</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="px-3 py-2 flex items-center text-xl font-bold leading-snug " href="#contact">
+                <span class="navNumber">3.</span><span class="ml-2">Contact</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="px-3 py-2 flex items-center text-xl font-bold leading-snug test" href="https://1drv.ms/b/s!ApPN57ZARwausvtqzsK_aiFdInPIAQ?e=Ll5ZXH">
+                <i class=" text-lg leading-lg text-white opacity-75"></i><span class="ml-2">Resume</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
